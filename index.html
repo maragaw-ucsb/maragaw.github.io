@@ -3,17 +3,42 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> == $0
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Semul</title>
   <meta name="description" content="The HTML5 Herald">
   <meta name="author" content="SitePoint">
 
   <link rel="stylesheet" href="css/styles.css?v=1.0">
-
 </head>
 
-<body>
+<body style>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <!-- Logo -->
+    <img src="https://nightwing.stevivor.com/wp-content/uploads/2016/07/S-blue.png" class = "rounded circle" style="width:50px;height:50px;margin-right:30px">
+    <a class="navbar-brand" href="#">Semul</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+  				<!-- Nav Items -->
+
+  				<ul class="navbar-nav navbar-right ml-auto justify-content-end">
+  					<li class="nav-item">
+  						<a class="nav-link" onclick="$('html, body').animate({ scrollTop: $('#Home').offset().top - 75}, 750, 'easeOutQuint');" href="#Home">Home</a>
+  					</li>
+  					<li class="nav-item">
+  						<a class="nav-link" onclick="$('html, body').animate({ scrollTop: $('#Work').offset().top - 75}, 750, 'easeOutQuint');" href="#Work">Work</a>
+  					</li>
+  					<li class="nav-item">
+  						<a class="nav-link" onclick="$('html, body').animate({ scrollTop: $('#About').offset().top - 75}, 750, 'easeOutQuint');" href="#About">About</a>
+  					</li>
+  				</ul>
+  			</div>
   <script src="js/scripts.js"></script>
   <h1>Semul</h1>
+
 </body>
 </html>
